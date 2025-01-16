@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-
 // c++ program to print 
 int main()
 {
