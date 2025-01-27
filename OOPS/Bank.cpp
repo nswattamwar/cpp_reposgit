@@ -32,12 +32,12 @@ class Bank
         {
             cout<<"Insufficient Balance"<<endl;
         }
-
+    }
     void balanceEnquiry()
     {
         cout<<"Account Number: "<<accountNumber<<endl;
         cout<<"Account Holder Name: "<<accountHolderName<<endl;
-        cout<<"Balance: "<<balance<<"crore"<<endl;
+        cout<<"Balance: "<<balance<<endl;
     }
 
 };
