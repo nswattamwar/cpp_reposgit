@@ -12,12 +12,12 @@ class derived : public base {
 public:
     void print() override { cout << "2print derived class\n"; } // Override virtual function
 
-    void show()  { cout << "2show derived class\n"; } // Override virtual function
+    void show() override  { cout << "2show derived class\n"; } // Override virtual function
 };
 
 int main()
 {
-   derived* bptr; // Base class pointer
+    base* bptr; // Base class pointer
     derived d;  // Derived class object
     bptr = &d;  // Base class pointer points to derived class object
 
