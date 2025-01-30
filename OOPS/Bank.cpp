@@ -17,6 +17,7 @@ class Bank
         this->balance = balance;
     }
 
+
     void deposit(float amount)
     {
         balance += amount;
